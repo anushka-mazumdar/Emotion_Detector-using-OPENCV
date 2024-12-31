@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Emotion Detector</title>
+    <link rel="icon" type="image/x-icon" href="icon.png">
+    <link rel="stylesheet" href="ui.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="icon.png" alt="Smart Emotion Detector Logo" class="logo">
+            <h1>Welcome to Smart Emotion Detector</h1>
+        </div>
+    </header>
+    <main>
+        <div class="glass-container">
+            <video id="video" autoplay></video>
+            <div class="button-group">
+                <button id="startCamera">Start Camera</button>
+                <button id="stopCamera">Stop Camera</button>
+            </div>
+            <p>Detected Emotion: <span id="emotionText">None</span></p>
+        </div>
+    </main>
+    <script src="ui.js"></script>
+</body>
+</html>
